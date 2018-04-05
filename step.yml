@@ -1,0 +1,9 @@
+name: test
+version: 0.1.0
+summary: This is just a test.
+tags:
+  - test
+properties:
+- name: param1
+  type: string
+  required: false

@@ -1,0 +1,12 @@
+box: alpine
+
+build:
+  steps:
+    - script:
+      code: |
+        touch binaryfile
+
+publish:
+  steps:
+    - internal/publish-step:
+        owner: markxnelson
